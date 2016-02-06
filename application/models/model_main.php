@@ -1,13 +1,15 @@
 <?php
 
-class Model_Portfolio extends Model
+class Model_Main extends Model
 {
 	
 	public function get_data()
 	{	
 		
-		// Здесь мы просто сэмулируем реальные данные.
-		
+		// Здесь мы просто пока что  сэмулируем реальные данные.
+		// формируем SQL запрос с БД 
+		// возвращвем обьект XML с данными. 
+
 		return array(
 			
 			array(

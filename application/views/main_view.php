@@ -1,25 +1,25 @@
-﻿<div class="post">
-	<h1 class="title">Добро пожаловать!</h1>
+﻿<?PHP 
+	for ($i=0; $i < count($XML); $i++) { 
+		// сюдя передадим xml документ и отобразим его данные в этом шаблоне:
+	}
+?>
+<div class="post">
+	<h1><a href="#" class="title">XML->DATA</a></h1>
 
 	<div class='post-header'>
 		<div class='published'>
 			<span class='caption'>Опубликовано:</span>
-			<span class='publishdate'>21 января 2016 г.</span>		
+			<span class='publishdate'>XML->DATA.</span>		
 		</div>
 	</div>
 	<div class="post-content">
-	<a href="/">Link - </a> 
-	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		XML->DATA
+		<?PHP print_r($data);?>
 	</div>
 
 	<div class="post-footer">
 		<div class="buttons">
-			<a class="newscut" href="#" title="">Read more</a>
+			<a class="newscut" href="#">Read more &rarr; </a>
 		</div>
 	</div>
 </div>

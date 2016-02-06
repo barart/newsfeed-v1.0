@@ -47,8 +47,8 @@ Modified by VitalySwipe
 					<h3>Наши контакты</h3>
 					<ul class="list">
 						<li class="first">icq: 199199538</li>
-						<li>skypeid: vitalyswipe</li>
-						<li class="last">email: vitalyswipe@gmail.com</li>
+						<li>skypeid: darakontem</li>
+						<li class="last">email: darakon92@gmail.com</li>
 					</ul>
 				</div>
 				<div id="page-bottom-content">
