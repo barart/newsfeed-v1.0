@@ -10,8 +10,16 @@ class Model
 			> методы ORM;
 			> методы для работы с NoSQL;
 			> и др.
-	*/
-
+	*/ 
+	protected $dbhost = 'localhost'; 
+	protected $dbname = 'newsfeed'; 
+	protected $dbuser = 'newsfeed_user'; 
+	protected $dbpass = '55831421'; 
+	
+	function __construct()
+	{
+		
+	}		
 	// метод выборки данных
 	public function get_data()
 	{
