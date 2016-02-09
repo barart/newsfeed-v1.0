@@ -3,12 +3,10 @@
 Design by Free CSS Templates
 http://www.freecsstemplates.org
 Released for free under a Creative Commons Attribution 3.0 License
-
 Name       : Accumen
 Description: A two-column, fixed-width design with dark color scheme.
 Version    : 1.0
 Released   : 20120712
-
 Modified by VitalySwipe
 -->
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -22,7 +20,6 @@ Modified by VitalySwipe
 		<link rel="stylesheet" type="text/css" href="/css/style.css" />
 		<script src="/js/jquery-1.12.0.js" type="text/javascript"></script>
 		<script type="text/javascript">
-
 		</script>
 	</head>
 
