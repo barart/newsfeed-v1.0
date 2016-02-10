@@ -13,8 +13,8 @@
 		</div>
 	</div>
 	<div class="post-content">
-		XML->DATA
-		<?PHP print_r($data);?>
+		XML->DATA: 
+		<?PHP print_r($xml_obj);?>
 	</div>
 
 	<div class="post-footer">

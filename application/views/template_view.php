@@ -33,7 +33,7 @@ Modified by VitalySwipe
 			<div id="page">
 				<div id="content">
 					<div class="box">
-						<?php include 'application/views/'.$content_view; ?>
+						<?php include 'application/views/'.$main_view; ?>
 					</div>
 					<br class="clearfix" />
 				</div>

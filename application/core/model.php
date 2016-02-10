@@ -2,7 +2,6 @@
 
 class Model
 {
-	
 	/*
 		Модель обычно включает методы выборки данных, это могут быть:
 			> методы нативных библиотек pgsql или mysql;
@@ -16,6 +15,7 @@ class Model
 	public $dbuser = 'newsfeed'; 
 	public $dbpass = '55831421'; 
 	public $pdo = '';
+	
 	function __construct()
 	{
 		$this->pdo=$this->connection_db('open');
@@ -48,11 +48,19 @@ class Model
 		}
 		else return FALSE;
 	}
-	function queryMysql($query)
+	function queryMysql($var,$query)
 	{
-		$result = $this->pdo->query($query);
-		// if (!$result) die($this->pdo->errorCode());
-		return $result;
+		if ($var) 
+		{
+			// подготовленые выражения
+		}
+		else if (!$var)
+		{
+			$pdo_stm = $this->pdo->query($query);
+			if (!$pdo_stm) die($this->pdo->errorCode());
+			return $pdo_stm; 
+		}
+		else return FALSE;
 	}		
 	// метод выборки данных
 	public function get_data()
