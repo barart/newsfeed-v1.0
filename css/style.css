@@ -211,9 +211,21 @@ a {
 	border: solid 1px #f3f3f3;
 	border-top: 0;
 }
+.id 
+{	margin-right: 10px;
+	color: #C1C1C1;
+}
 .post{
 	border-top: 1px solid #E3E3E3;
 	border-bottom: 1px solid #E3E3E3;
+}
+.caption
+{
+	font-style: italic;
+}
+.post-content
+{
+	text-indent: 30px;
 }
 .buttons{
 	margin: 10px;

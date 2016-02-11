@@ -33,7 +33,12 @@ Modified by VitalySwipe
 			<div id="page">
 				<div id="content">
 					<div class="box">
-						<?php include 'application/views/'.$main_view; ?>
+						<?php 
+							foreach ($data as $row) 
+							{
+								include 'application/views/'.$main_view; 
+							}
+						?>
 					</div>
 					<br class="clearfix" />
 				</div>
@@ -51,9 +56,8 @@ Modified by VitalySwipe
 				<div id="page-bottom-content">
 					<h3>О Компании</h3>
 					<p>
-			Вот дом. <br/>
-			<a href="/">ОЛОЛОША TEAM</a> &copy; 2016</a>
-
+						Вот дом. <br/>
+						<a href="/">ОЛОЛОША TEAM</a> &copy; 2016</a>
 					</p>
 				</div>
 				<br class="clearfix" />

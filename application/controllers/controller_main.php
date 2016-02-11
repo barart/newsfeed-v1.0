@@ -12,7 +12,6 @@ class Controller_Main extends Controller
 	function action_index()
 	{	
 		$data = $this->model->get_data();
-		$xml_obj = $this->model->generateXml($data);		
-		$this->view->generate('main_view.php', 'template_view.php', $xml_obj);
+		$this->view->generate('main_view.php', 'template_view.php', $data);
 	}
 }
